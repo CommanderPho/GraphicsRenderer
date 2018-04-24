@@ -22,6 +22,10 @@
 
 import Foundation
 
+#if os(OSX)
+    import Cocoa
+#endif
+
 /**
  *  Represents a PDF renderer format
  */

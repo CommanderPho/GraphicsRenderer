@@ -21,6 +21,9 @@
  */
 
 import Foundation
+#if os(OSX)
+import Cocoa
+#endif
 
 /**
  *  Represents an image renderer format
